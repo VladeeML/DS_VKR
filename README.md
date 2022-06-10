@@ -1,0 +1,2 @@
+# DS_VKR
+bmstu
