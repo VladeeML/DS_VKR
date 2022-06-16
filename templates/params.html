@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+
+    <form action="" method="post">
+        <p>
+	    <label for="plotn">Плотность, кг/м3</label>
+	    <input type="text" name="plotn">
+	</p>
+        <p>
+	    <label for="mod_uprug">модуль упругости, ГПа</label>
+	    <input type="text" name="mod_uprug">
+	</p>
+        <p>
+	    <label for="quant_otverd">Количество отвердителя, м.%</label>
+	    <input type="text" name="quant_otverd">
+	</p>
+	<p>
+	    <label for="content_epoks">Содержание эпоксидных групп,%_2</label>
+	    <input type="text" name="content_epoks">
+	</p>
+	<p>
+	    <label for="temp_flash">Температура вспышки, С_2</label>
+	    <input type="text" name="temp_flash">
+	</p>
+	<p>
+	    <label for="surf_dens">Поверхностная плотность, г/м2</label>
+	    <input type="text" name="surf_dens">
+	</p>
+	<p>
+	    <label for="mod_upr_rast">Модуль упругости при растяжении, ГПа</label>
+	    <input type="text" name="mod_upr_rast">
+	</p>
+	<p>
+	    <label for="proch_rast">Прочность при растяжении, МПа</label>
+	    <input type="text" name="proch_rast">
+	</p>
+	<p>
+	    <label for="consum_smol">Потребление смолы, г/м2</label>
+	    <input type="text" name="consum_smol">
+	</p>
+	<p>
+	    <label for="angl_patch">Угол нашивки, град</label>
+	    <input type="text" name="angl_patch">
+	</p>
+	<p>
+	    <label for="step_patch">Шаг нашивки</label>
+	    <input type="text" name="step_patch">
+	</p>
+	<p>
+	    <label for="dens_patch">Плотность нашивки</label>
+	    <input type="text" name="dens_patch">
+	</p>
+
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+
+</body>
+</html>
